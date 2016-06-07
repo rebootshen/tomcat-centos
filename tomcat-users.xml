@@ -1,0 +1,14 @@
+<tomcat-users>
+<!--role rolename="manager"/>
+<role rolename="manager-gui"/>
+<role rolename="manager-script"/>
+<user username="tomcat" password="tomcat" roles="manager,manager-gui,manager-script" /-->
+<role rolename="admin"/>
+<user username="admin" password="admin" roles="admin"/>
+<role rolename="manager-gui"/>
+<role rolename="manager-script"/>
+<role rolename="manager-jmx"/>
+<role rolename="manager-status"/>
+<role rolename="admin-gui"/>
+<user username="tomcat" password="tomcat" roles="manager-gui,manager-status,admin-gui,manager-script"/>
+</tomcat-users>
